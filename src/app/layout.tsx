@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import { monda, monoton, ps2p } from './fonte.js'
 import './globals.css'
+import { monda, monoton, ps2p } from './fonte'
 
 export const metadata: Metadata = {
   title: 'PET-SIMC - Website',

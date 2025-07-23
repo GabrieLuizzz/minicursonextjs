@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-w95-dark-grey: #9e9e9e;
+  --color-w95-darker-grey: #c0c0c0;
+  --color-w95-grey: #d9d9d9;
+  --color-w95-light-grey: #ece9e9;
+  --color-w95-purple: #593cfa;
+  --color-w95-blue: #0066ff;
+  --font-ps2p: var(--font-ps2p);
+  --font-monoton: var(--font-monoton);
+}
 
 html {
   scroll-behavior: smooth !important;
